@@ -1,3 +1,4 @@
 Jana
 29
-Male
+chennai
+DevOps
