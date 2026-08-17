@@ -1,3 +1,11 @@
-Hi git
-run echo
-Hello
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Hi git! Pipeline is working successfully.'
+            }
+        }
+    }
+}
